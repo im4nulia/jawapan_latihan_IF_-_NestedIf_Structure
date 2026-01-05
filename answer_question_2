@@ -1,0 +1,9 @@
+# Question 2 - Condition checking (Basic if)
+z = float(input("How much did you spend?:"))
+if z > 100:
+   print("You get a discount!")
+elif z == 100:
+   print("Still no discount!")
+else:
+   print("We're sorry! No discount for you.")
+...

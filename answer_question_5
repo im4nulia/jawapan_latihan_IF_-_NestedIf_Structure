@@ -1,0 +1,11 @@
+# Question 5 - Access Control System (Nested if-else)
+q = input("Are you staff?:")
+if q == 'Yes':
+   r = int(input("Enter access level:"))
+   if r >= 5:
+      print("Access granted!")
+   else: 
+      print("Access denied: Insufficient level")
+else: 
+   print("Access denied: Staff only!")
+...
